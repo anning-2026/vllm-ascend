@@ -41,7 +41,7 @@ vllm serve /path/to/your/Hunyuan-A13B-Instruct \
     --port 9999 \
     --served-model-name Hunyuan \
     --tensor-parallel-size 4 \
-    --max-model-len 32768 \
+    --max-model-len 39500 \
     --gpu-memory-utilization 0.90 \
     --async-scheduling
 ```
