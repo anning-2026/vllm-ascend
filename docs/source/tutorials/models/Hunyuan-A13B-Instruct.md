@@ -47,7 +47,7 @@ vllm serve /path/to/your/Hunyuan-A13B-Instruct \
 ```
 Key performance indicators (based on actual test logs):
 
-Weighted memory usage: Each NPU has a static memory usage of approximately 37.46 GB.
+Memory usage for weights: Each NPU has a static memory usage of approximately 37.46 GB.
 
 Graph Compilation (ACL Graph): With PIECEWISE mode enabled, the system automatically captures the graph in approximately 26 seconds, which can significantly accelerate subsequent inference.
 
