@@ -35,7 +35,7 @@ Single-node Deployment (4-NPU)
 conda activate vllm
 
 # Start the vLLM service
-vllm serve /home/openmind/Hunyuan-A13B-Instruct \
+vllm serve /path/to/your/Hunyuan-A13B-Instruct \
     --trust-remote-code \
     --host 0.0.0.0 \
     --port 9999 \
