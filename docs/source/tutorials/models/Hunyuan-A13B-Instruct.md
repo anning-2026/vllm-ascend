@@ -22,7 +22,7 @@ pip install vllm-ascend==0.13.0rc1
 ```
 2. Software stack version verification
 
-The environment is based on CANN 8.3.RC2 built into the Molecular Ark platform, and successfully runs torch-npu 2.8.0, vLLM 0.13.0, and vLLM-Ascend 0.13.0rc1 through the Python 3.11.13 Conda environment.
+The environment is based on CANN 8.3.RC2 built into the Modelers (模力方舟) platform, and successfully runs torch-npu 2.8.0, vLLM 0.13.0, and vLLM-Ascend 0.13.0rc1 through the Python 3.11.13 Conda environment.
 
 
 ## Deployment
