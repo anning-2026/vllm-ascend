@@ -51,7 +51,7 @@ Memory usage for weights: Each NPU has a static memory usage of approximately 37
 
 Graph Compilation (ACL Graph): With PIECEWISE mode enabled, the system automatically captures the graph in approximately 26 seconds, which can significantly accelerate subsequent inference.
 
-KV Cache Capacity: The remaining video memory can provide concurrent cache space for approximately 503,000 tokens.
+KV Cache Capacity: The remaining NPU memory can provide concurrent cache space for approximately 503,000 tokens.
 
 ## Functional Verification
 ```bash
