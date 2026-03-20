@@ -58,7 +58,7 @@ KV Cache Capacity: The remaining NPU memory can provide concurrent cache space f
 curl http://localhost:9999/v1/chat/completions \
     -H "Content-Type: application/json" \
     -d '{
-        "model": "/home/openmind/Hunyuan-A13B-Instruct",
+        "model": "Hunyuan",
         "messages": [{"role": "user", "content": "你好，请自我介绍一下。"}],
         "max_tokens": 100,
         "temperature": 0.7
