@@ -10,6 +10,6 @@ tasks:
 num_fewshot: 5
 gpu_memory_utilization: 0.90
 tensor_parallel_size: 4
-max_model_len: 39500
-max_num_batched_tokens: 39500
+max_model_len: 32768
+max_num_batched_tokens: 32768
 apply_chat_template: True
